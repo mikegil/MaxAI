@@ -1,0 +1,1 @@
+tail -f ~/Library/Logs/pai-voice-server.log

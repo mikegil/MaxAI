@@ -1,0 +1,1 @@
+curl -X POST http://localhost:8888/notify -H 'Content-Type: application/json' -d '{"message":"The voice server is working perfectly!"}'
