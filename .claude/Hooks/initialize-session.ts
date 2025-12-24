@@ -150,7 +150,7 @@ async function main() {
     const stopHookOk = await testStopHook();
 
     const daName = process.env.DA || 'AI Assistant';
-    const message = `Hello Sir, ${daName} is ready to serve you.`;
+    const message = `Hello Sir, ${daName} is ready to assist you.`;
 
     if (!stopHookOk) {
       console.error('\n⚠️ STOP-HOOK ISSUE DETECTED - Tab titles may not update automatically');

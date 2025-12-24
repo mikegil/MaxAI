@@ -3,9 +3,14 @@
         "context7": {
             "type": "http",
             "description": "Up to date API info",
+            "command": "bun",
+            "args": [
+                "x",
+                "@upstash/context7-mcp"
+            ],
             "url": "https://mcp.context7.com/mcp",
-            "headers": {
-                "x-api-key": "REDACTED_API_KEY"
+            "env": {
+                "API_KEY": "${CONTEXT7_API_KEY}"
             }
         },
         "playwright": {
